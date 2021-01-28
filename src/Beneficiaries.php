@@ -81,7 +81,7 @@ class Beneficiaries
      * 
      * @param mixed[] $data_hash nullable
      */
-    public function get($data_hash)
+    public function lists($data_hash)
     {
         return self::remoteCall(null, $data_hash, 'get');
     }
@@ -98,7 +98,7 @@ class Beneficiaries
      * 'email' => 'sandor@clegane.com']
      * @return 
      */
-    public function post($data_hash)
+    public function create($data_hash)
     {
         return self::remoteCall(null, $data_hash, 'post');
     }
@@ -115,7 +115,7 @@ class Beneficiaries
      * 'email' => 'sandor@clegane.com']
      * @return 
      */
-    public function patch($param, $data_hash)
+    public function update($param, $data_hash)
     {
         return self::remoteCall($param, $data_hash, 'patch');
     }
