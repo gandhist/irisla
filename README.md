@@ -12,9 +12,9 @@ this library is to make a payout using iris midtrans with laravel
 - install
 composer require gandhist/irisla
 - import library
-use Gandhist\Irisla\Beneficiaries;
-use Gandhist\Irisla\Payouts;
-use Gandhist\Irisla\Transactions;
+  - use Gandhist\Irisla\Beneficiaries;
+  - use Gandhist\Irisla\Payouts;
+  - use Gandhist\Irisla\Transactions;
 
 - create new instance
 $my_balance = new Transactions->balance_aggregator();
