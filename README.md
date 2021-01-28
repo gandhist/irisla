@@ -9,6 +9,8 @@ this library is to make a payout using iris midtrans with laravel
 - env = IRIS_API_KEY_APPROVER={YOUR-IRIS-API-APPROVER}
 
 ## HOW TO USE
+- install
+composer require gandhist/irisla
 - import library
 use Gandhist\Irisla\Beneficiaries;
 use Gandhist\Irisla\Payouts;
