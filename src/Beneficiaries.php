@@ -9,7 +9,7 @@ namespace Gandhist\Irisla;
 * > get daftar bank Indonesia
 * > validasi nomor rekening
 * crafted by Gandhi Tabrani ¯\_(ツ)_/¯
-*/
+*/ 
 class Beneficiaries 
 {
     private $url;
