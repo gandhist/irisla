@@ -21,17 +21,17 @@ $my_balance = new Transactions->balance_aggregator();
 ## current function
 all method needs url end point and body from official iris api, reference :  **[IRIS Docs](https://iris-docs.midtrans.com/#iris-api)**
 # Beneficiaries
--> get(null)
--> post($body)
--> patch($alias_name, $body)
+- get(null)
+- post($body)
+- patch($alias_name, $body)
 # Payouts
--> create($body)
--> approve($body)
--> reject($body)
--> details($reference_no)
+- create($body)
+- approve($body)
+- reject($body)
+- details($reference_no)
 # Transactions
--> history($body) // from_date, to_date
--> top_up_channel()
--> balance_aggregator()
--> bank_accounts()
--> balance_facilitator()
+- history($body) // from_date, to_date
+- top_up_channel()
+- balance_aggregator()
+- bank_accounts()
+- balance_facilitator()
