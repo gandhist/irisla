@@ -146,5 +146,13 @@ class Transactions {
         return self::remoteCall($param, null, 'get');
     }
 
+    /**
+     * check if an account is valid, if valid return account information
+     */
+    public function account_validation($bank_name, $bank_account){
+        $param = "account_validation?bank=$bank_name&account=$bank_account";
+        return self::remoteCall($param, null, 'get');
+    }
+
 
 }
